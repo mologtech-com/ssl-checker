@@ -1,0 +1,23 @@
+{
+  "name": "@mologtech-com/ssl-checker",
+  "version": "1.0.0",
+  "description": "Verify your SSL certificate installation",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mologtech-com/ssl-checker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mologtech-com/ssl-checker/issues"
+  },
+  "homepage": "https://github.com/mologtech-com/ssl-checker#readme",
+  "dependencies": {
+    "axios": "^1.2.3",
+    "inquirer": "^8.2.5",
+    "pkg": "^5.8.0"
+  }
+}
