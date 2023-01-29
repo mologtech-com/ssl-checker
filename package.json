@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Verify your SSL certificate installation",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build:win": "pkg -t node14-win-x64 -o dist/ssl-checker.exe index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mologtech-com/ssl-checker.git"
@@ -16,8 +18,16 @@
   },
   "homepage": "https://github.com/mologtech-com/ssl-checker#readme",
   "dependencies": {
-    "axios": "^1.2.3",
+    "ansi-colors": "^4.1.3",
+    "detect-port": "^1.5.1",
+    "execa": "^5.1.1",
+    "fast-glob": "^3.2.12",
     "inquirer": "^8.2.5",
+    "lodash": "^4.17.21",
+    "ora": "^5.4.1",
+    "superagent": "^8.0.9"
+  },
+  "devDependencies": {
     "pkg": "^5.8.0"
   }
 }
